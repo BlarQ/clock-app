@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./collins.css">
+
+    <title>Clock App</title>
+</head>
+<body>
+    <main class="bg-gradient-to-tr from-green-600 to-blue-600 min-h-[100dvh] flex items-center justify-center font-serif flex-col">
+        <h1 class="text-7xl text-white font-extrabold mb-8">Digital Clock</h1>
+
+        <section class="flex">
+            <div id="hour" class="grid items-center justify-center mx-4 text-white text-center">
+                <span class="bg-gray-800 min-h-28 min-w-32 rounded-t-lg flex items-center justify-center text-7xl">00</span>
+                <span class="bg-red-700 min-h-8 flex items-center justify-center rounded-b-lg">Hours</span>
+            </div>
+            <div id="min" class="grid items-center justify-center mx-4 text-white text-center">
+                <span class="bg-gray-800 min-h-28 min-w-32 rounded-t-lg flex items-center justify-center text-7xl">00</span>
+                <span class="bg-red-700 min-h-8 flex items-center justify-center rounded-b-lg">Minutes</span>
+            </div>
+            <div id="sec" class="grid items-center justify-center mx-4 text-white text-center">
+                <span class="bg-gray-800 min-h-28 min-w-32 rounded-t-lg flex items-center justify-center text-7xl">00</span>
+                <span class="bg-red-700 min-h-8 flex items-center justify-center rounded-b-lg">Seconds</span>
+            </div>
+            <div id="mil" class="grid items-center justify-center mx-4 text-white text-center">
+                <span class="bg-gray-800 min-h-28 min-w-32 rounded-t-lg flex items-center justify-center text-7xl">00</span>
+                <span class="bg-red-700 min-h-8 flex items-center justify-center rounded-b-lg">Milliseconds</span>
+            </div>
+            <div id="daylight" class="mt-28 mx-4 text-white text-center">
+                <span class="bg-green-500 min-h-8 flex items-center justify-center px-4 rounded-lg">PM</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
