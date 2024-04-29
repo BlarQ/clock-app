@@ -16,7 +16,7 @@ const updateTime = () => {
     const sec = Math.floor(seconds) < 10 ? '0' + Math.floor(seconds) : Math.floor(seconds)
     const mil = Math.floor(milliseconds / 10) < 10 ? '0' + Math.floor(milliseconds / 10) : Math.floor(milliseconds / 10)
 
-    const day = hr >= 12 && min > 0 ? 'PM' : 'AM'
+    const day = hr >= 12 && min >= 0 ? 'PM' : 'AM'
 
 
     outHr.textContent = hr
